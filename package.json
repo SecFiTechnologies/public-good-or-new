@@ -1,0 +1,25 @@
+{
+  "name": "good-or-new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:SecFiTechnologies/public-good-or-new.git",
+  "author": "Sarah van der Laan <sarah@secfi.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.3.0",
+    "body-parser": "^1.19.0",
+    "dayjs": "^1.10.4",
+    "dotenv": "^8.2.0",
+    "path": "^0.12.7",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  },
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
